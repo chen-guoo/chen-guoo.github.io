@@ -455,11 +455,6 @@
                 
 
                 
-                    <div id="busuanzi_container_page_pv" class="info-break-policy">
-                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
-                        <span id="busuanzi_value_page_pv"></span>
-                    </div>
-				
             </div>
         </div>
         <hr class="clearfix">
@@ -557,6 +552,33 @@
     </div>
 
     
+
+    
+        <link rel="stylesheet" href="/libs/gitment/gitment-default.css">
+<link rel="stylesheet" href="/css/gitment.css">
+
+<div class="gitment-card card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitment-content" class="card-content"></div>
+</div>
+
+<script src="/libs/gitment/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+    id: 'Sat Apr 23 2022 17:40:20 GMT+0800',
+    owner: 'chen-guoo',
+    repo: 'chen-guoo.github.io',
+    oauth: {
+        client_id: '9fdd0378dbf31e3dea73',
+        client_secret: '7af42491466a87bcbec5eb27a4305f28666ec09a'
+    }
+});
+
+gitment.render('gitment-content');
+</script>
 
     
 
@@ -849,8 +871,6 @@
                                         
                                             
                                                 
-                                                    
-                                                        
                                                             
                                                                 <span id="busuanzi_container_site_pv" style='display:none'>
                 |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
@@ -868,7 +888,7 @@
                                                                                     <br>
                                                                                     
                     </div>
-                    <div class="col s12 m4 l4 social-link social-statis">
+                    <div class="col s12 m4 l4 social-link ">
                         
     <a href="https://github.com/chen-guoo" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
@@ -1063,8 +1083,6 @@ $(function () {
     
     <script src="/libs/others/clicklove.js" async="async"></script>
     
-    
-    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
     
 
     
