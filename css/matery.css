@@ -4,6 +4,9 @@
 /*小屏幕下(手机类)的样式*/
 
 @media only screen and (max-width: 601px) {
+    header .brand-logo .logo-img {
+        display: none;
+    }
     .container {
         width: 95%;
     }
@@ -249,7 +252,7 @@ mark {
 
 .bg-color {
     background-image: linear-gradient(to right, #ffffff 0%, #93bef0 20%, #cd9174 100%);
-    transform: translate3d(0px, 0px, 0px);
+    opacity: 0.8;
 }
 
 .text-color {
@@ -595,6 +598,8 @@ header .go-back i {
     font-weight: 400;
 }
 
+
+/*
 @-webkit-keyframes rainbow {
     0%,
     100% {
@@ -674,6 +679,7 @@ header .go-back i {
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
 }
+*/
 
 .index-card {
     margin-top: -10px;
@@ -1222,15 +1228,12 @@ article .article-tags .chip {
     overflow: auto;
 }
 
-
-/**
 #articleContent table,
 th,
 td {
     padding: 12px 13px;
     border: 1px solid #dfe2e5;
 }
-**/
 
 table tr:nth-child(2n),
 thead {
